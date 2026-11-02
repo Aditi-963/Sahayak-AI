@@ -11,9 +11,9 @@ The platform evaluates user responses using a deterministic, rule-based eligibil
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🤖 1. Conversational Eligibility Assistant
+###  1. Conversational Eligibility Assistant
 - Interactive, chat-style eligibility assessment.
 - One question at a time, with simple explanations.
 - Dynamic question branching based on previous answers.
@@ -21,13 +21,13 @@ The platform evaluates user responses using a deterministic, rule-based eligibil
 - Transparent explanations of the criteria matched.
 - Rule-based decision-making for consistent and predictable results.
 
-### 🌐 2. Bilingual Experience
+###  2. Bilingual Experience
 - Complete English and Hindi interfaces.
 - Simple, conversational Hindi designed for accessibility.
 - Language selection persists throughout the application.
 - Hardcoded translations eliminate the need for external translation APIs.
 
-### 🏥 3. PM-JAY Eligibility Assessment
+###  3. PM-JAY Eligibility Assessment
 The eligibility engine evaluates user-provided information against the criteria configured for the application.
 
 **Rural household indicators**
@@ -60,7 +60,7 @@ The system also collects ration card information as supporting context rather th
 
 **Important:** These are simplified screening indicators, not a complete reproduction of official eligibility rules. The application must distinguish potential eligibility from confirmed entitlement and direct users to official verification.
 
-### 📋 4. Personalized Enrollment Summary
+###  4. Personalized Enrollment Summary
 Generate a structured summary containing:
 
 - Applicant and household details.
@@ -72,7 +72,7 @@ Generate a structured summary containing:
 
 Users can download or print their summary and share a concise summary through WhatsApp.
 
-### 📄 5. Document Checklist
+###  5. Document Checklist
 The generated summary includes documents that may be useful during verification:
 
 - Aadhaar cards for family members.
@@ -82,7 +82,7 @@ The generated summary includes documents that may be useful during verification:
 
 The application explains that the exact requirements may vary and should be confirmed with an authorized verification centre.
 
-### 🛡️ 6. Privacy-Conscious MVP
+###  6. Privacy-Conscious MVP
 - No login or account creation required.
 - No paid AI APIs required.
 - No direct Aadhaar or government database integration.
@@ -94,7 +94,7 @@ The application should avoid retaining sensitive personal information unless nec
 
 ---
 
-## 🎯 The Problem
+##  The Problem
 
 Accessing government healthcare benefits can be difficult when families face:
 
@@ -107,7 +107,7 @@ Accessing government healthcare benefits can be difficult when families face:
 
 These obstacles can make an already complicated process even more challenging.
 
-## 💡 Our Solution
+##  Our Solution
 
 Sahayak AI turns eligibility screening into a guided, conversational experience.
 
@@ -124,7 +124,7 @@ Instead of presenting users with a long form or overwhelming them with policy do
 
 ---
 
-## 🔄 User Journey
+##  User Journey
 
 ```text
            ┌──────────────────────┐
@@ -177,7 +177,7 @@ Instead of presenting users with a long form or overwhelming them with policy do
 
 ---
 
-## 🧠 Eligibility Engine
+##  Eligibility Engine
 
 The eligibility engine is intentionally implemented using deterministic Python logic rather than relying on a generative AI model to make eligibility decisions.
 
@@ -216,7 +216,7 @@ The coverage value above is an illustrative standard PM-JAY screening value. Sen
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 Sahayak AI uses a decoupled frontend and backend architecture.
 
@@ -258,7 +258,7 @@ The frontend manages the conversation and presentation, while the FastAPI backen
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **React** — component-based user interface.
@@ -289,7 +289,7 @@ The frontend manages the conversation and presentation, while the FastAPI backen
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 A suggested repository structure:
 
@@ -351,7 +351,7 @@ sahayak-ai/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -535,7 +535,7 @@ In production, the backend should recompute or validate the eligibility result r
 
 ---
 
-## 🗃️ Database Design
+##  Database Design
 
 ### `applicants`
 
@@ -570,7 +570,7 @@ For the MVP, hardcoded rules are sufficient. A data-driven rules table can be in
 
 ---
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 Sahayak AI is designed for people who need clarity, not complexity.
 
@@ -598,7 +598,7 @@ The interface follows these principles:
 
 ---
 
-## ⚖️ Accuracy, Safety & Trust
+##  Accuracy, Safety & Trust
 
 Healthcare access is an important public-service issue. Incorrect eligibility claims can create false expectations or cause people to miss legitimate benefits.
 
@@ -622,7 +622,7 @@ Sahayak AI is an independent informational tool and is not affiliated with or en
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### Phase 1 — MVP
 - [ ] Responsive landing page.
@@ -653,7 +653,7 @@ Future features will depend on reliable information sources, privacy safeguards,
 
 ---
 
-## 🌱 Expected Impact
+##  Expected Impact
 
 Sahayak AI aims to reduce the effort required to understand healthcare eligibility and prepare for enrollment verification.
 
@@ -663,7 +663,7 @@ By combining conversational guidance, deterministic screening, bilingual communi
 
 ---
 
-## 👥 Team
+##  Team
 
 **Project:** Sahayak AI
 
@@ -675,7 +675,7 @@ By combining conversational guidance, deterministic screening, bilingual communi
 
 ---
 
-## 📜 License
+##  License
 
 This project can be released under the MIT License. Add a `LICENSE` file to the repository if you choose this license.
 
@@ -684,5 +684,5 @@ This project can be released under the MIT License. Add a `LICENSE` file to the 
 <p align="center">
   <b>Sahayak AI — Healthcare benefits, made easier to understand.</b>
   <br>
-  Built with ❤️ for a more accessible and informed India.
+  Built with  for a more accessible and informed India.
 </p>
